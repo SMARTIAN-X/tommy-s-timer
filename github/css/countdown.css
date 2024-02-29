@@ -1,0 +1,66 @@
+body {
+    background-color: rgb(213, 224, 255);
+  }
+  section {
+    width: 90vw;
+    margin: 80px auto;
+    max-width: 1170px;
+  }
+  img {
+    border-radius: 10px;
+    float: inline-start;
+    margin-right: 10px;
+  }
+  h1 {
+    color: blueviolet;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    padding-top: 20px;
+  }
+  h3 {
+    color: dimgray;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  
+  .countdown {
+    display: flex;
+  }
+  .countdown div {
+    flex-basis: 100px;
+  }
+
+  .countdown div p {
+    font-size: 51px;
+    margin: 15px;
+    color: aliceblue;
+    padding: 5px;
+  }
+  span {
+    margin: 20px;
+    font-size: 20px;
+  }
+  .days {
+    border: 4px blue solid;
+    margin: 15px;
+    border-radius: 5px;
+    background-color: blue;
+  }
+  .hours {
+    border: 2px blue solid;
+    margin: 15px;
+    border-radius: 5px;
+    background-color: blue;
+  }
+  .minutes {
+    border: 2px blue solid;
+    margin: 15px;
+    border-radius: 5px;
+    background-color: blue;
+  }
+  .seconds {
+    border: 2px blue solid;
+    margin: 15px;
+    border-radius: 5px;
+    background-color: blue;
+    
+  }
+  
